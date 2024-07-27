@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(71, 5, 89);
+}
+.bar{
+    background-color:rgb(71, 5, 89);
+    margin-top: 20px;
+   
+}
+.bar .navbar{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    list-style: none;
+    /* padding-top: 15px; */
+}
+.bar .navbar .list{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 60px 80px 80px 120px;
+    font-size: 25px;
+} 
+.bar .navbar .list:hover{
+    color: aqua;
+} 
+ .header .page{
+    background-color: whitesmoke;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.header .page .content .matter1{
+    text-align:left;
+    padding-left: 15%;
+    padding-top: 3%;
+    color: rgb(19, 19, 98);
+}
+.header .page .content .matter2{
+    text-align:left;
+    padding-left: 37%;
+    padding-top: 3%;
+    color: rgb(19, 19, 98);
+}
+.header .page .content .matt{
+    text-align:left;
+    padding-left: 29%;
+    padding-top: 2%;
+    color: rgb(19, 19, 98);
+}
+.header .page .content .matter1:hover{
+    color: rgb(218, 135, 27);
+}
+.header .page .content .matter2:hover{
+    color: rgb(218, 135, 27);
+}
+.header .page .content .matt:hover{
+    color: rgb(218, 135, 27);
+}
+.header .page span{
+    background: rgb(97, 6, 97);
+    top:320px ;
+    left: 15%;
+    height: 4px;
+    width: 970px;
+    position: absolute;
+}
+.header .page span:hover{
+  background: rgb(221, 201, 14);
+}
+.header .page .content button{
+    margin-left: 20%;
+    margin-top: 6%;
+    padding: 10px;
+    background-color: rgb(68, 28, 91);
+    color: whitesmoke;
+}
+.header .page .content button:hover{
+    background-color: beige;
+    color: black;
+    font-weight: 700;
+}
+#about .head {
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+}
+#about .head:hover{
+    color: rgb(9, 226, 238);
+}
+#about .classic .profile img{
+    height: 270px;
+    width: 270px;
+    margin-left: 42%;
+    margin-top: 4%;
+}
+#about .classic .content1 .para{
+    color: white;
+    align-items: left;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1.5%;
+    margin-bottom: 5%;
+}
+#about .classic .content1 span{
+    background: rgb(255, 255, 255);
+    top:930px ;
+    left: 5%;
+    height: 4px;
+    width: 1290px;
+    right: 5%;
+    position: absolute;
+}
+.skills .font{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    font-weight: 700px;
+    margin-left: 10%;
+    margin-top: 8%; 
+    
+}
+.skills .cont2{
+    margin-top:-160px;
+    margin-bottom: 4%;
+}
+.skills .cont2 .skill{
+    color: white;
+    margin-left: 60%;
+    margin-bottom: 0.5%;
+}
+.skills .cont2  span{
+    background: rgb(255, 255, 255);
+    top:1420px ;
+    left: 5%;
+    height: 6px;
+    width: 1290px;
+    right: 5%;
+    position: absolute;
+}
+#contact-us{
+  margin-top: 1%;
+}
+
+.tit .ctc{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;;
+}
+.cont1{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+  text-align: center;
+  color: #ffffff;
+}
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 20px;
+  padding: 20px 20px;
+  background-color:rgb(78, 9, 99);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cont1 .card .icon1{
+  min-width: 60px;
+  height: 60px;
+  /* padding-left: 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.card:hover{
+  background-color: rgb(130, 21, 163);
+  transition: 0.4s easy;
+}
+.card .icon1{
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: black;
+}
+.card .add{
+  font-size: 28px;
+  color: #ffffff;
+}
+.card p{
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.ctc:hover{
+  color:aqua;
+}
+
+#card-2{
+  margin-top:-25px;
+}
+
+@media screen and (max-width:992px){
+  .cont1{
+      display: flex;
+      flex-direction: column;
+      margin-left:500px ;
+      font-size: 60px;
+  }
+  .cont1 .card .kuchi17 {
+    font-size: 40px;
+  }
+  .card{
+      width: 85%;
+      display: flex;
+      margin: 10px 0px;
+}
+.sec1 .tit .ctc{
+  margin-left: 490px;
+  font-size: 70px;
+}
+.tit .ctc::after{
+  content: "";
+  height: 5px;
+  width: 460px;
+  background-color: #ffffff;
+  display: block;
+  margin: auto;
+}
+}
